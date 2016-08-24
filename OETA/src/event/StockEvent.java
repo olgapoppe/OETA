@@ -25,7 +25,7 @@ public class StockEvent {
 		int t = Integer.parseInt(values[0]);
         int s = Integer.parseInt(values[1]);
         int c = Integer.parseInt(values[2]);          	
-        int p = Integer.parseInt(values[2]);
+        int p = Integer.parseInt(values[3]);
     	    	    	
     	StockEvent event = new StockEvent(t,s,c,p);    	
     	//System.out.println(event.toString());    	
